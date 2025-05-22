@@ -250,7 +250,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.07, y: -1.37, z: -10}
+  m_LocalPosition: {x: -6.98, y: -1.37, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -421,7 +421,7 @@ Transform:
   m_GameObject: {fileID: 732440264}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.1, y: -1.36, z: 0}
+  m_LocalPosition: {x: -4.3, y: -1.36, z: 0}
   m_LocalScale: {x: 1.513364, y: 0.99370885, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -456,10 +456,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28814e691887ec44a8353fc8affff04c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxTime: 1.5
+  _maxTime: 1
   _highRange: 0.9
   _platformPrefab: {fileID: 7754909900833593889, guid: 7450f1f55b14dd74d89a5384f70b5bf4, type: 3}
-  _distance: 5
+  _distance: 4.2
   _player: {fileID: 1576515505}
 --- !u!4 &1321016870
 Transform:
@@ -470,7 +470,7 @@ Transform:
   m_GameObject: {fileID: 1321016868}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.93, y: -2.5, z: 0.028012615}
+  m_LocalPosition: {x: -13.86, y: -2.5, z: 0.028012615}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -559,8 +559,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.014503962, y: 0.040880367}
-  m_Size: {x: 2.195496, y: 0.9999988}
+  m_Offset: {x: 0.07299568, y: 0.04088036}
+  m_Size: {x: 2.02655, y: 1.0000184}
   m_Direction: 1
 --- !u!212 &1576515504
 SpriteRenderer:
@@ -626,7 +626,7 @@ Transform:
   m_GameObject: {fileID: 1576515501}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.154, y: -1.45, z: 0}
+  m_LocalPosition: {x: -14.17, y: -1.51, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -666,7 +666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd0c2f68c9a326a4b8becb1ef3a13a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxSpeed: 5
+  _maxSpeed: 1
 --- !u!114 &1576515508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -679,7 +679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18e7d48db57211449767e9af3b5a8b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 5
+  jumpForce: 5.2
   groundLayer:
     serializedVersion: 2
     m_Bits: 8

@@ -3,7 +3,7 @@ using UnityEngine;
 public class platformMoveBehaviour : MonoBehaviour
 {
     [SerializeField]
-    private float _speed = .65f;
+    private float _speed = .95f;
 
     private void Update()
     {

@@ -3,7 +3,7 @@ using UnityEngine;
 public class platformSpawner : MonoBehaviour
 {
     [SerializeField]
-    private float _maxTime = 0.3f;
+    private float _maxTime = 10f;
 
     [SerializeField]
     private float _highRange = 1f;
@@ -12,7 +12,7 @@ public class platformSpawner : MonoBehaviour
     private GameObject _platformPrefab;
 
     [SerializeField]
-    private float _distance = 20f;
+    private float _distance = 10f;
 
     private float timer;
 
@@ -64,7 +64,7 @@ public class platformSpawner : MonoBehaviour
 
     private void SpawnPlatform()
     {
-        float xOffset = Random.Range(_distance * 0.9f, _distance * 1.2f); // kis variáció, hogy ne legyen mindig egyforma
+        float xOffset = Random.Range(_distance * 1f, _distance * 1.2f); // kis variáció, hogy ne legyen mindig egyforma
 
         _lastPlatformX += xOffset;
 
@@ -75,7 +75,7 @@ public class platformSpawner : MonoBehaviour
         );
 
         GameObject newPlatform = Instantiate(_platformPrefab, spawnPos, Quaternion.identity);
-        Destroy(newPlatform, 10f);
+        Destroy(newPlatform, 40f);
     }
 
 
